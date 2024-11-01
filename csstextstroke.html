@@ -1,0 +1,33 @@
+<style>
+html{ 
+background-color: grey; 
+font-family:'Trebuchet MS','Lucida Grande',Verdana,Arial,Sans-Serif;
+text-align:center;
+}
+a { color:black; text-decoration:none;}
+h1 { font-size:35px; font-weight:bold; }
+div.description { font-size:15px; }
+h1 { position:relative;}
+div.description { position:relative; }
+</style>
+
+<link rel="stylesheet" type="text/css" href="csstextstroke.css">
+<script src="csstextstroke.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+window.onload=function(){
+  if(!NiftyCheck())
+    return;
+  processTextStroke("div#headerimg a");
+  processTextStroke("div.description");
+}
+</script>
+
+
+<div id="headerimg">
+  <h1>
+  <a href="http://blog.mapmyglobe.com/">Blog - MapMyGlobe</a>
+  &nbsp;
+  </h1>
+  <div class="description">Virtual Tourism 2.0 :)</div>
+</div>

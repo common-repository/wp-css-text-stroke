@@ -1,0 +1,9 @@
+span.rawtext { position:absolute; top:0px; left:0px;}
+span.stroke1 { position:absolute; color:white; top:-1px; left:-1px;}
+span.stroke2 { position:absolute; color:white; top:1px; left:1px;}
+span.stroke3 { position:absolute; color:white; top:-1px; left:1px;}
+span.stroke4 { position:absolute; color:white; top:1px; left:-1px;}
+span.stroke5 { position:absolute; color:white; top:2px; left:0px;}
+span.stroke6 { position:absolute; color:white; top:-2px; left:0px;}
+span.stroke7 { position:absolute; color:white; top:0px; left:2px;}
+span.stroke8 { position:absolute; color:white; top:0px; left:-2px;}
